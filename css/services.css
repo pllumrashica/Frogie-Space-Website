@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0e0e11;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 10px 0px;
+}
+
+header .container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+header .container .logo {
+  width: 10%;
+}
+
+header .container .nav {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+header .container .nav li {
+  list-style: none;
+  padding: 0px 24px;
+}
+
+header .container .nav li a {
+  text-decoration: none;
+  width: 72px;
+  height: 22px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+header .container .estimate {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+header .container .estimate a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 222px;
+  height: 50px;
+  background: #ce8578;
+  border-radius: 30px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0e0e11;
+}
+
+/* Main Part START */
+.main-part {
+  height: auto;
+  background-color: #ffffff;
+}
+
+.main-part .container {
+  width: 85%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.main-part .container .text {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-part .container .text p {
+  width: 1160px;
+  height: 396px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 44px;
+  text-align: center;
+  color: #0e0e11;
+}
+
+/* Our Services */
+.our-services {
+  background-color: #ffffff;
+}
+
+.our-services .row {
+  display: flex;
+  column-gap: 50px;
+}
+
+.our-services .row .col {
+  flex-basis: 50%;
+}
+
+.our-services .row .col:last-child img {
+  width: 100%;
+  height: 100%;
+}
+
+.our-services .row .col .text {
+  margin: 120px 0px 0px 0px;
+  position: relative;
+  left: 120px;
+}
+
+.our-services hr {
+  position: relative;
+  width: 99.3%;
+  border: 5px solid #0e0e11;
+  margin: 0px;
+  padding: 0px;
+}
+
+.our-services .row .col h2 {
+  width: 197px;
+  height: 41px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 43px;
+  color: #0e0e11;
+}
+
+.our-services .row .col .text img {
+  width: 96px;
+}
+
+.our-services .row .col .list-and-description {
+  display: flex;
+  column-gap: 50px;
+}
+
+.our-services .row .col .list-and-description .list ul li {
+  list-style-type: none;
+  transform: rotate(90deg);
+  padding: 20px 0px;
+}
+
+.our-services .row .col .list-and-description .list ul li a {
+  text-decoration: none;
+  width: 28px;
+  height: 29px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #a45a4c;
+}
+
+.our-services .row .col .list-and-description .list ul li .active {
+  color: #0e0e11;
+}
+
+.our-services .row .col .list-and-description .description p {
+  width: 466px;
+  height: 476px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #0e0e11;
+}
+
+/* Banner START */
+.banner {
+  width: auto;
+  height: auto;
+}
+
+.banner .container {
+  width: 85%;
+  margin: 0px auto;
+}
+
+.banner .container .row {
+  margin: 100px 0px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.banner .container .row .col h1 {
+  width: 910px;
+  height: 172px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 92px;
+  color: #ffffff;
+}
+
+.image {
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+}
+
+/* Project Name START */
+.project-name {
+  height: auto;
+  background-color: #ffffff;
+}
+
+.project-name .container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.project-name .container .row {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.project-name .container .row .col {
+  flex-basis: 50%;
+  padding: 40px 0px;
+}
+
+.project-name .container .row .col:first-child span {
+  width: 269px;
+  height: 29px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ce8578;
+}
+
+.project-name .container .row .col:first-child h1 {
+  width: 565px;
+  height: 86px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 92px;
+  color: #0e0e11;
+  margin: 20px 0px;
+}
+
+.project-name .container .row .col:first-child .button {
+  width: 268px;
+  border-bottom: 0.5px solid #ce8578;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.project-name .container .row .col:first-child .button a {
+  text-decoration: none;
+  width: 247px;
+  height: 29px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  color: #0e0e11;
+}
+
+.project-name .container .row .col:first-child .button .img {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.project-name .container .row .col:last-child ul li {
+  list-style: none;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #0e0e11;
+  margin: 25px 0px;
+}
+
+.project-name .container .row .col:last-child ul li span {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ce8578;
+}
+
+.project-name .container .row .col:last-child {
+  display: flex;
+  justify-content: center;
+}
+
+.project-name-image {
+  width: 100%;
+}
+.project-name-image img {
+  width: 100%;
+}
+
+/* Get In Touch START */
+footer {
+  background-color: #ffffff;
+  height: auto;
+}
+
+footer .container .row {
+  width: 100%;
+  display: flex;
+}
+
+footer .row .col {
+  flex-basis: 50%;
+}
+
+footer .row .col:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .row .col:nth-child(2) {
+  text-align: center;
+  padding: 40px;
+}
+
+footer .row .col:nth-child(2) h4 {
+  width: 448px;
+  height: 41px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 43px;
+  text-align: center;
+  color: #0e0e11;
+}
+
+footer .row .col:nth-child(2) span {
+  width: 565px;
+  height: 34px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #0e0e11;
+}
+
+footer .row .col:nth-child(2) .button {
+  display: flex;
+  justify-content: center;
+}
+
+footer .row .col:nth-child(2) a {
+  margin: 20px 0px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 222px;
+  height: 50px;
+  background: #ce8578;
+  border-radius: 30px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0e0e11;
+}
+
+footer .row .col:nth-child(2) ul {
+  display: flex;
+}
+
+footer .row .col:nth-child(2) ul li {
+  list-style-type: none;
+  padding: 0px 20px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+  color: #0e0e11;
+}
+footer .row .col:nth-child(2) ul li .social-media {
+  width: auto;
+  background: none;
+  padding: 0px 20px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+  color: #0e0e11;
+  text-decoration: none;
+}
+/* Get In Touch END */

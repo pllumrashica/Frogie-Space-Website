@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+body {
+  background-color: #0e0e11;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 10px 0px;
+}
+
+header .container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+header .container .logo {
+  width: 10%;
+}
+
+header .container .nav {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+header .container .nav li {
+  list-style: none;
+  padding: 0px 24px;
+}
+
+header .container .nav li a {
+  text-decoration: none;
+  width: 72px;
+  height: 22px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+header .container .estimate {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+header .container .estimate a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 222px;
+  height: 50px;
+  background: #ce8578;
+  border-radius: 30px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0e0e11;
+}
+
+/* Main Part */
+.main-part {
+  height: auto;
+  background-color: #ffffff;
+}
+
+.main-part .container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.main-part .container h1 {
+  width: 464px;
+  height: 172px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 92px;
+  color: #0e0e11;
+}
+
+.main-part .container p {
+  width: 565px;
+  height: 34px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #0e0e11;
+}
+
+.main-part .container .row {
+  display: flex;
+  flex-direction: column;
+}
+.main-part .container .row .col {
+  display: flex;
+}
+
+.main-part .container .row .col ul {
+  display: flex;
+  margin: 20px 0px;
+  padding: 0px;
+}
+
+.main-part .container .row .col ul li {
+  margin: 0px 20px 0px 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 14px 20px;
+  gap: 10px;
+  border: 1px solid #1f1f23;
+  border-radius: 30px;
+}
+
+.main-part .container .row .col ul .active-list {
+  background: #1f1f23;
+  border-radius: 30px;
+}
+
+.main-part .container .row .col ul .active-list a {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.main-part .container .row .col ul li a {
+  text-decoration: none;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0e0e11;
+}
+
+/* Contact Us START */
+
+.contact-us form label:first-child {
+  display: block;
+  width: 116px;
+  height: 14px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #0e0e11;
+}
+
+.contact-us form label {
+  display: block;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0e0e11;
+}
+
+.contact-us form input {
+  padding: 15px 0px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(14, 14, 17, 0.15);
+  margin-bottom: 20px;
+}
+
+.contact-us form textarea {
+  padding: 15px 0px;
+  width: 100%;
+  height: 100px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(14, 14, 17, 0.15);
+  margin-bottom: 20px;
+  resize: none;
+}
+
+.contact-us h2 {
+  width: 565px;
+  height: 34px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #0e0e11;
+}
+.contact-us ul {
+  display: flex;
+  margin: 20px 0px;
+  padding: 0px;
+}
+
+.contact-us ul li {
+  margin: 0px 20px 0px 0px;
+  list-style: none;
+  padding: 14px 20px;
+  gap: 10px;
+  border: 1px solid #1f1f23;
+  border-radius: 30px;
+}
+
+.contact-us ul .active-list {
+  background: #1f1f23;
+  border-radius: 30px;
+}
+
+.contact-us ul .active-list a {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.contact-us ul li a {
+  text-decoration: none;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0e0e11;
+}
+
+.contact-us button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 103px;
+  height: 50px;
+  background: #ce8578;
+  border-radius: 30px;
+  border: none;
+}
+
+.contact-us button a {
+  text-decoration: none;
+  height: 22px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0e0e11;
+}

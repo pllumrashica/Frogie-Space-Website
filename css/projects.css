@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+body {
+  background-color: #0e0e11;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 10px 0px;
+}
+
+header .container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+header .container .logo {
+  width: 10%;
+}
+
+header .container .nav {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+header .container .nav li {
+  list-style: none;
+  padding: 0px 24px;
+}
+
+header .container .nav li a {
+  text-decoration: none;
+  width: 72px;
+  height: 22px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+header .container .estimate {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+header .container .estimate a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 222px;
+  height: 50px;
+  background: #ce8578;
+  border-radius: 30px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0e0e11;
+}
+
+/* Main Part START */
+.main-part {
+  height: auto;
+}
+
+.main-part .container {
+  width: 85%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.main-part .container .row {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+  height: 80vh;
+}
+
+.main-part .container .row .col {
+  flex-basis: 50%;
+}
+
+.main-part .container .row .col h1 {
+  width: 958px;
+  height: 172px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 92px;
+  color: #ffffff;
+}
+
+.main-part .container ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-part .container ul li {
+  list-style: none;
+}
+
+.main-part .container ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  width: 577px;
+  height: 29px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.main-part .container ul li .active {
+  color: #ce8578;
+}
+
+.main-part .container ul span {
+  color: #ffffff;
+  height: 29px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  margin: 0px 10px;
+}
+
+/*  */
+.selected-projects {
+  height: auto;
+}
+
+.selected-projects .container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.selected-projects .container .row {
+  display: flex;
+  column-gap: 15px;
+  text-align: center;
+  margin: 100px 0px;
+}
+
+.selected-projects .container .row a {
+  text-decoration: none;
+}
+
+.selected-projects .container .row .col {
+  flex-basis: 33%;
+}
+.selected-projects .container .row .col h1 {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 43px;
+  color: #ffffff;
+}
+
+.selected-projects .container .row:first-child .col:first-child h1 {
+  border-bottom: 1px solid #ffffff;
+  padding: 10px 0px;
+}
+
+/* Get In Touch START */
+footer {
+  background-color: #ffffff;
+  height: auto;
+}
+
+footer .container .row {
+  width: 100%;
+  display: flex;
+}
+
+footer .row .col {
+  flex-basis: 50%;
+}
+
+footer .row .col:last-child {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .row .col:nth-child(2) {
+  text-align: center;
+  padding: 40px;
+}
+
+footer .row .col:nth-child(2) h4 {
+  width: 448px;
+  height: 41px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 43px;
+  text-align: center;
+  color: #0e0e11;
+}
+
+footer .row .col:nth-child(2) span {
+  width: 565px;
+  height: 34px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: center;
+  color: #0e0e11;
+}
+
+footer .row .col:nth-child(2) .button {
+  display: flex;
+  justify-content: center;
+}
+
+footer .row .col:nth-child(2) a {
+  margin: 20px 0px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 222px;
+  height: 50px;
+  background: #ce8578;
+  border-radius: 30px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  color: #0e0e11;
+}
+
+footer .row .col:nth-child(2) ul {
+  display: flex;
+}
+
+footer .row .col:nth-child(2) ul li {
+  list-style-type: none;
+  padding: 0px 20px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+  color: #0e0e11;
+}
+footer .row .col:nth-child(2) ul li .social-media {
+  width: auto;
+  background: none;
+  padding: 0px 20px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+  color: #0e0e11;
+  text-decoration: none;
+}
+/* Get In Touch END */
